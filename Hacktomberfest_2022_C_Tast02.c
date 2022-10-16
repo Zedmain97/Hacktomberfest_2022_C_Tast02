@@ -4,6 +4,7 @@ int main() {
   inting result = sum(10)
   printf("%d", result);
   return 0;
+  
 }
 
 int sum(int k) {
