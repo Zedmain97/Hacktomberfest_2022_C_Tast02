@@ -1,15 +1,15 @@
 int sum(int k);
 
 int main() {
-  inting result = sum(10)
-  printf("%d", result);
+  int r = sum(10);
+  printf("%d", r);
   return 0;
 }
 
 int sum(int k) {
   if (k > 0) {
-    return k + sum(k - 1)
+    return k + sum(k - 1);
   } else {
-    return;
+    return 0;
   }
 }
